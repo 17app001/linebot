@@ -47,3 +47,8 @@
 - git remote add origin https://github.com/17app001/linebot.git
 - git remote -v
 
+# 複製專案
+- git clone https://github.com/17app001/linebot
+
+
+
