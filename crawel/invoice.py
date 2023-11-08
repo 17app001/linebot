@@ -15,6 +15,7 @@ def get_invoice_numbers():
 
     return numbers
 
+# 進行兌獎
 def search_invoice_bingo(invoice_number,numbers):
     bingo=False
     for i in range(len(numbers)):               
