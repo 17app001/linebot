@@ -42,6 +42,7 @@
 
 # 檢視commit log 
 - git log
+	- git log --oneline
 
 # 綁定遠端倉庫 
 - git remote add origin https://github.com/17app001/linebot.git
@@ -50,5 +51,11 @@
 # 複製專案
 - git clone https://github.com/17app001/linebot
 
+# 同步資料庫
+- python manage.py migrate
 
+# 同步雲端倉庫 
+- git push
 
+# 啟動指令 
+- gunicorn trainapp.wsgi

@@ -49,7 +49,7 @@ def search_invoice_bingo(invoice_number,numbers):
 
     if bingo:
         if i==0:
-            message='有機會中特別獎1000萬(八個號碼)'            
+            message='超有機會中特別獎1000萬(八個號碼)'            
         elif i==1:
             message='有機會中特獎200萬(八個號碼)'          
         else:
